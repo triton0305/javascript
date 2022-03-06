@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	
+
+	function get_members(){
+		return ['misnik', 'riverman', 'maezy'];
+	}
+
+	var members = get_members();
+
+
+	for (var i = 0; i < members.length; i++){
+		document.write(members[i].toUpperCase()+"<br />");
+	}
+	// arr.push : 하나의 원소를 배열 뒤에 추가 , concat : 복수의 원소를 배열 뒤에 추가
+	// arr.unshift : 원소를 배열 앞에 추가;
+	// arr.splice(1, 0, 'Bee') : 1번 index 원소 앞에 'Bee'를 추가한다.
+	// arr.splice(1, 1, 'dark', 'light') : 1번 index 지점에서 1개의 원소를 삭제하고 순서대로 집어 넣는다.
+	// shift : 앞에 원소 제거 , pop : 뒤에 원소 제거, sort() : 순서대로 정렬, reverse() : 역순 정렬
+	// 생활코딩 사전 sort를 찾아보자!
+
+
+</script>
+</body>
+</html>
